@@ -9,3 +9,5 @@ Monday
 
 #RESOURCES
 I used bikeshare data
+#TIME
+3months
