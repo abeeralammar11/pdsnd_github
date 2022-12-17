@@ -77,6 +77,8 @@ def time_stat(df):
 
     common_month = df['the month'].mode()[0]
     print(' the most popular month is:', common_month)
+       common_day = df['the_day_of_the_week'].mode()[0]
+    print(' the most popular day is:', common_day)
 
     # TO DO: display the most common day of week
 
@@ -142,6 +144,8 @@ def user_stat(df):
 
     ut = df['User Type'].value_counts()
     print(' the user types:\n', ut)
+     bt = df['Birth Year'].value_counts()
+    
 
     # TO DO: Display counts of gender
 
